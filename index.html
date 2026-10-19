@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BioFab — автоматизированная система синтеза пептидов «под ключ»." />
+    <title>&#x413;&#x43B;&#x430;&#x432;&#x43D;&#x430;&#x44F; - BioFab</title>
+    <link rel="stylesheet" href="css/fonts.css" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <link rel="manifest" href="icons/site.webmanifest" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
+
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+
+    <!-- ===== ШАПКА (sticky, прилипает к верху при скролле) ===== -->
+    <header b-9csx9a6czi class="site-header">
+        <div b-9csx9a6czi class="container header__inner">
+            <a class="logo" href="./">
+                <img src="image/logo.png" alt="BioFab" class="logo__icon" />
+                <span b-9csx9a6czi class="logo__text">
+                    <span b-9csx9a6czi class="logo__title">BioFab</span>
+                    <span b-9csx9a6czi class="logo__subtitle">Синтезируем будущее</span>
+                </span>
+            </a>
+
+            <nav b-9csx9a6czi id="mainNav" class="main-nav">
+                <a href="#about">О продукте</a>
+                <a href="#advantages">Преимущества</a>
+                <a href="#specs">Характеристики</a>
+                <a href="#usage">Применение</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+
+            <a href="#contacts" class="btn btn--primary btn--sm header__cta-desktop">Связаться с нами</a>
+
+            <button b-9csx9a6czi id="burgerBtn" class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mainNav">
+                <span b-9csx9a6czi class="burger__line"></span>
+                <span b-9csx9a6czi class="burger__line"></span>
+                <span b-9csx9a6czi class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== ОСНОВНОЙ КОНТЕНТ СТРАНИЦЫ ===== -->
+    <main b-9csx9a6czi>
+        <!-- ===== HERO ===== -->
+<section class="hero">
+    <div class="container hero__inner">
+        <div class="hero__content">
+            <div class="hero__fsi">
+                <div class="support">
+                    <img src="image/fsi_logo.png" alt="Фонд содействия инновациям" class="support__logo" />
+                    <div class="support__text">
+                        <span class="support__label">Создано при поддержке</span>
+                        <span class="support__name">Фонда содействия инновациям</span>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="hero__title">
+                BioFab — умная <span class="text-accent">лаборатория<br />пептидного синтеза</span>
+            </h1>
+
+            <p class="hero__text">
+                Первая в России доступная автоматизированная система «под ключ»:
+                оборудование + ПО с интегрированным обучением. С нуля до результата — за один день.
+            </p>
+
+            <div class="hero__actions">
+                <a href="#about" class="btn btn--primary">Подробнее →</a>
+                <a href="#contacts" class="btn btn--outline">Узнать стоимость</a>
+            </div>
+
+            <div class="hero__stats">
+                <div class="stat">
+                    <div class="stat__value">от 100 мг</div>
+                    <div class="stat__label">синтез микропартий</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__value">97%</div>
+                    <div class="stat__label">выход годного продукта</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__value">1 день</div>
+                    <div class="stat__label">с нуля до результата</div>
+                </div>
+            </div>
+          
+        </div>
+
+         <div class="hero__card">
+            <div class="hero__compo">
+                <img src="image/hero-hands3.webp" alt="Управление синтезом через мобильное приложение" class="hero__compo-hand" />
+
+                <div class="hero__compo-link">
+                    <span class="hero__compo-ring"></span>
+                    <span class="hero__compo-ring hero__compo-ring--delay"></span>
+                    <span class="hero__compo-dot"></span>
+                </div>
+
+                <img src="image/hero-device.webp" alt="Синтезатор пептидов BioFab" class="hero__compo-device" />
+            </div>
+             <div class="hero__card-body">
+                <div class="hero__card-row">
+                    <span class="hero__card-title">Текущий синтез</span>
+                    <span class="badge badge--active"><span class="dot-live"></span>Активен</span>
+                </div>
+                <div class="hero__card-sub">ACTH(1-24) · Цикл 18/32</div>
+                <div class="progress">
+                    <div class="progress__bar" style="width:56%"></div>
+                </div>
+                <div class="hero__card-row">
+                    <span class="hero__card-sub">Прогресс</span>
+                    <span class="hero__card-percent">56%</span>
+                </div>
+            </div> 
+        </div> 
+    </div>
+</section>
+
+<!-- ===== О ПРОДУКТЕ ===== -->
+<section id="about" class="section">
+    <div class="container about__inner">
+        <div class="about__text">
+            <p class="eyebrow">О ПРОДУКТЕ</p>
+            <h2 class="section__title">Умная лаборатория пептидного синтеза</h2>
+
+            <p class="about__paragraph">
+                BioFab — первая в России автоматизированная система «под ключ» для синтеза пептидов,
+                доступная малым и средним научным группам. Комплекс включает оборудование,
+                программное обеспечение и интегрированное обучение.
+            </p>
+            <p class="about__paragraph">
+                Функциональный прототип разработан и испытан. Проведён пилотный синтез
+                дипептида аланина, подтвердивший корректность работы системы.
+            </p>
+
+            <ul class="check-list">
+                <li>Готово к работе сразу после запуска</li>
+                <li>Выход на рынок 2027</li>
+                <li>Локализованное производство в России</li>
+            </ul>
+        </div>
+
+        <div class="about__media">
+            <img src="image/heart.webp" alt="Модель сердца на медицинских документах" class="about__img" loading="lazy" />
+            <div class="about__cards">
+                <div class="mini-card">
+                    <div class="mini-card__value">УГТ 4</div>
+                    <div class="mini-card__label">Стадия проекта</div>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card__value">Прототип</div>
+                    <div class="mini-card__label">Испытан</div>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-card__value">2027</div>
+                    <div class="mini-card__label">Выход на рынок</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ПРЕИМУЩЕСТВА ===== -->
+<section id="advantages" class="section section--muted">
+    <div class="container">
+        <div class="section__head">
+            <p class="eyebrow eyebrow--center">ПРЕИМУЩЕСТВА</p>
+            <h2 class="section__title">Почему BioFab?</h2>
+            <p class="section__subtitle">
+                Каждый аспект системы спроектирован с акцентом на доступность,
+                воспроизводимость и независимость от зарубежных поставщиков.
+            </p>
+        </div>
+
+        <div class="cards-grid cards-grid--3">
+            <div class="feature-card">
+                <div class="feature-card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="28" height="28" fill="currentColor"><path d="M360-840v-80h240v80H360Zm80 440h80v-240h-80v240Zm-99.5 291.5Q275-137 226-186t-77.5-114.5Q120-366 120-440t28.5-139.5Q177-645 226-694t114.5-77.5Q406-800 480-800q62 0 119 20t107 58l56-56 56 56-56 56q38 50 58 107t20 119q0 74-28.5 139.5T734-186q-49 49-114.5 77.5T480-80q-74 0-139.5-28.5ZM678-242q82-82 82-198t-82-198q-82-82-198-82t-198 82q-82 82-82 198t82 198q82 82 198 82t198-82ZM480-440Z" /></svg>
+                </div>
+                <h3 class="feature-card__title">С нуля до результата за 1 день</h3>
+                <p class="feature-card__text">
+                    Мобильное приложение с пошаговыми инструкциями превращает новичка в опытного
+                    синтетика. Обучение встроено в систему.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="28" height="28" fill="currentColor"><path d="M666-440 440-666l226-226 226 226-226 226Zm-546-80v-320h320v320H120Zm400 400v-320h320v320H520Zm-400 0v-320h320v320H120Zm80-480h160v-160H200v160Zm467 48 113-113-113-113-113 113 113 113Zm-67 352h160v-160H600v160Zm-400 0h160v-160H200v160Zm160-400Zm194-65ZM360-360Zm240 0Z" /></svg>
+                </div>
+                <h3 class="feature-card__title">Модульность</h3>
+                <p class="feature-card__text">
+                    Наращивайте функционал по мере роста задач. Система масштабируется без замены
+                    базового оборудования.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="28" height="28" fill="currentColor"><path d="M80-160v-80h720v-560h80v560q0 33-23.5 56.5T800-160H80Zm320-160v-240h320v240H400Z" /></svg>
+                </div>
+                <h3 class="feature-card__title">Микропартии от 100 мг</h3>
+                <p class="feature-card__text">
+                    Синтез там, где подрядчики отказывают. Минимальная загрузка 0,1 г при выходе
+                    годного продукта 97%.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="28" height="28" fill="currentColor"><path d="M480-80q-139-35-229.5-159.5T160-516v-244l320-120 320 120v244q0 152-90.5 276.5T480-80Zm0-84q104-33 172-132t68-220v-189l-240-90-240 90v189q0 121 68 220t172 132Zm0-316Z" /></svg>
+                </div>
+                <h3 class="feature-card__title">Полная конфиденциальность</h3>
+                <p class="feature-card__text">
+                    Никаких утечек формул. Всё остаётся в вашей лаборатории.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="28" height="28" fill="currentColor"><path d="M220-260q-92 0-156-64T0-480q0-92 64-156t156-64q37 0 71 13t61 37l68 62-60 54-62-56q-16-14-36-22t-42-8q-58 0-99 41t-41 99q0 58 41 99t99 41q22 0 42-8t36-22l310-280q27-24 61-37t71-13q92 0 156 64t64 156q0 92-64 156t-156 64q-37 0-71-13t-61-37l-68-62 60-54 62 56q16 14 36 22t42 8q58 0 99-41t41-99q0-58-41-99t-99-41q-22 0-42 8t-36 22L352-310q-27 24-61 37t-71 13Z" /></svg>
+                </div>
+                <h3 class="feature-card__title">Автономный синтез</h3>
+                <p class="feature-card__text">
+                    Контроль за реагентами и процессом синтеза без присутствия оператора 24/7.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="28" height="28" fill="currentColor"><path d="M320-120v-80h80v-80H160q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v400q0 33-23.5 56.5T800-280H560v80h80v80H320ZM160-360h640v-400H160v400Zm0 0v-400 400Z" /></svg>
+                </div>
+                <h3 class="feature-card__title">Удалённое управление</h3>
+                <p class="feature-card__text">
+                    Мобильное приложение для мониторинга и дистанционного управления синтезом.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ===== ХАРАКТЕРИСТИКИ ===== -->
+<section id="specs" class="section section--muted">
+    <div class="container">
+        <div class="section__head">
+            <p class="eyebrow eyebrow--center">ХАРАКТЕРИСТИКИ</p>
+            <h2 class="section__title">Технические параметры и сравнение</h2>
+        </div>
+
+        <div class="specs__inner">
+            <div class="specs-table">
+                <div class="specs-table__row">
+                    <span>Минимальная загрузка реагента</span>
+                    <strong>0,1 г</strong>
+                </div>
+                <div class="specs-table__row">
+                    <span>Выход годного продукта</span>
+                    <strong class="text-accent">97%</strong>
+                </div>
+                <div class="specs-table__row">
+                    <span>Стратегии защиты</span>
+                    <strong>Fmoc / Boc</strong>
+                </div>
+                <div class="specs-table__row">
+                    <span>Управление</span>
+                    <strong class="spec-long">Мобильное приложение</strong>
+                </div>
+                <div class="specs-table__row">
+                    <span>Стадия проекта</span>
+                    <strong>УГТ 4</strong>
+                </div>
+                <div class="specs-table__row">
+                    <span>Выход на рынок</span>
+                    <strong>2027 г.</strong>
+                </div>
+            </div>
+            <div class="market-card">
+                <p class="market-card__label">ЧТО ВХОДИТ В КОМПЛЕКС</p>
+
+                <div class="market-card__row">
+                    <p class="market-card__name">Оборудование</p>
+                    <p class="market-card__value">Автоматизированный синтезатор</p>
+                    <p class="market-card__sub">Модульная конструкция</p>
+                </div>
+
+                <div class="market-card__row">
+                    <p class="market-card__name">Программное обеспечение</p>
+                    <p class="market-card__value">Мобильное приложение</p>
+                    <p class="market-card__sub">Мониторинг и управление синтезом</p>
+                </div>
+
+                <div class="market-card__row market-card__row--last">
+                    <p class="market-card__name">Встроено в систему</p>
+                    <p class="market-card__value">Обучение</p>
+                    <p class="market-card__sub">Пошаговые инструкции для новичков</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="compare-card">
+            <h3 class="compare-card__title">Сравнение с конкурентами</h3>
+
+            <div class="table-wrapper">
+                <table class="compare-table">
+                    <thead>
+                        <tr>
+                            <th>Параметр</th>
+                            <th class="compare-table__biofab">BioFab</th>
+                            <th>CEM Corp (США)</th>
+                            <th>CSBio (США)</th>
+                            <th>AAPPTec (США)</th>
+                            <th>Dilunbio (КНР)</th>
+                            <th>БиоХимМак (РФ)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Мин. загрузка реагента (г)</td>
+                            <td class="cell--good">0,1</td>
+                            <td class="cell--bad">5–10*</td>
+                            <td class="cell--bad">5–10*</td>
+                            <td class="cell--bad">5*</td>
+                            <td class="cell--bad">5*</td>
+                            <td class="cell--bad">5–10*</td>
+                        </tr>
+                        <tr>
+                            <td>Выход годного продукта</td>
+                            <td class="cell--good">97%</td>
+                            <td class="cell--bad">70%</td>
+                            <td class="cell-split">
+                                <div class="cell-split__inner">
+                                    <span class="cell--bad">70%</span>
+                                    <span class="cell--good">98%</span>
+                                </div>
+                            </td>
+                            <td class="cell--bad">70%</td>
+                            <td class="cell-split">
+                                <div class="cell-split__inner">
+                                    <span class="cell--bad">70%</span>
+                                    <span class="cell--mid">85%</span>
+                                </div>
+                            </td>
+                            <td class="cell--good">98%</td>
+                        </tr>
+                        <tr>
+                            <td>Автоматизация + обучение</td>
+                            <td class="compare-table__biofab"><span class="mark mark--yes">✓</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--yes">✓</span></td>
+                        </tr>
+                        <tr>
+                            <td>Удалённое управление</td>
+                            <td class="compare-table__biofab"><span class="mark mark--yes">✓</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--yes">✓</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                        </tr>
+                        <tr>
+                            <td>Модульность</td>
+                            <td class="compare-table__biofab"><span class="mark mark--yes">✓</span></td>
+                            <td><span class="mark mark--yes">✓</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--yes">✓</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                        </tr>
+                        <tr>
+                            <td>Локализация производства</td>
+                            <td class="compare-table__biofab"><span class="mark mark--yes">✓</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                            <td><span class="mark mark--no">✗</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="compare-card__note compare-card__note--bottom">* Вынужденный «Мёртвый объём» системы</p>
+
+            <div class="compare-card__actions">
+                <a href="#contacts" class="btn btn--primary">Обсудить с нами</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ПРИМЕНЕНИЕ ===== -->
+<section id="usage" class="section section--dark">
+    <div class="container">
+        <div class="usage__head">
+            <div>
+                <p class="eyebrow">ПРИМЕНЕНИЕ</p>
+                <h2 class="section__title section__title--light">Области применения</h2>
+            </div>
+            <p class="usage__intro">
+                Целевой сегмент — малые и средние научные группы, учебные центры, фармацевтические
+                стартапы.
+            </p>
+        </div>
+
+        <div class="cards-grid cards-grid--3">
+            <div class="usage-card">
+                <img src="image/lab2.webp" alt="Научные лаборатории" class="usage-card__img" loading="lazy" />
+                <div class="usage-card__body">
+                    <h3 class="usage-card__title">Научные лаборатории</h3>
+                </div>
+            </div>
+
+            <div class="usage-card">
+                <img src="image/farma.webp" alt="Фармацевтика" class="usage-card__img" loading="lazy" />
+                <div class="usage-card__body">
+                    <h3 class="usage-card__title">Фармацевтика</h3>
+                </div>
+            </div>
+
+            <div class="usage-card">
+                <img src="image/cosmetic.webp" alt="Биотех и косметика" class="usage-card__img" loading="lazy" />
+                <div class="usage-card__body">
+                    <h3 class="usage-card__title">Биотех и косметика</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="clients">
+            <p class="clients__label">ПОТЕНЦИАЛЬНЫЕ КЛИЕНТЫ</p>
+            <div class="clients__list">
+                <span class="client-pill">НМИЦ им. В.А. Алмазова</span>
+                <span class="client-pill">Solopharm</span>
+                <span class="client-pill">BioCad</span>
+                <span class="client-pill">LigandPro</span>
+                <span class="client-pill">Generium</span>
+                <span class="client-pill">Промомед</span>
+                <span class="client-pill">Amgen</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== КОНТАКТЫ ===== -->
+<section id="contacts" class="section">
+    <div class="container contacts__inner">
+        <div class="contacts__text">
+            <p class="eyebrow">КОНТАКТЫ</p>
+            <h2 class="section__title">Свяжитесь с нами</h2>
+            <p class="contacts__intro">
+                Готовы ответить на технические вопросы, провести демонстрацию и обсудить условия под задачи вашей лаборатории.
+            </p>
+
+            <div class="contact-item">
+                <span class="contact-item__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="22" height="22" fill="currentColor"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" /></svg>
+                </span>
+                <div>
+                    <div class="contact-item__label">Email</div>
+                    <a href="mailto:sea222777@yandex.ru" class="contact-item__value">sea222777@yandex.ru</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-item__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="22" height="22" fill="currentColor"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" /></svg>
+                </span>
+                <div>
+                    <div class="contact-item__label">Телефон</div>
+                    <a href="tel:+79627222777" class="contact-item__value">+7 (962) 722 27 77</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <span class="contact-item__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="22" height="22" fill="currentColor"><path d="M536.5-503.5Q560-527 560-560t-23.5-56.5Q513-640 480-640t-56.5 23.5Q400-593 400-560t23.5 56.5Q447-480 480-480t56.5-23.5ZM480-186q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z" /></svg>
+                </span>
+                <div>
+                    <div class="contact-item__label">Адрес</div>
+                    <div class="contact-item__value">Санкт-Петербург, Россия</div>
+                </div>
+            </div>
+        </div>
+        <a href="https://t.me/Bio_Fab" target="_blank" rel="noopener" class="telegram-card">
+            <span class="telegram-card__wrap">
+                <img src="image/telegram-qr.png" alt="QR-код Telegram-канала BioFab — @BIO_FAB" class="telegram-card__img" loading="lazy" />
+            </span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="badges">
+            <p class="badges__label">ДОСТИЖЕНИЯ ПРОЕКТА</p>
+            <div class="badges__list">
+                <div class="badges__item">
+                    <span class="badges__text">Победитель акселератора «Стартапы ЛЭТИ»</span>
+                </div>
+
+                <div class="badges__item">
+                    <span class="badges__text">Грантополучатель ФСИ</span>
+                </div>
+
+                <div class="badges__item">
+                    <span class="badges__text">Топ-100 проектов Академии инноваторов</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- ===== ФУТЕР ===== -->
+    <footer b-9csx9a6czi class="site-footer">
+        <div b-9csx9a6czi class="container footer__inner">
+            <a class="logo" href="./">
+                <img src="image/logo.png" alt="BioFab" class="logo__icon" />
+                <span b-9csx9a6czi class="logo__text">
+                    <span b-9csx9a6czi class="logo__title">BioFab</span>
+                    <span b-9csx9a6czi class="logo__subtitle">Синтезируем будущее</span>
+                </span>
+            </a>
+
+            <nav b-9csx9a6czi class="main-nav main-nav--footer">
+                <a href="#about">О продукте</a>
+                <a href="#advantages">Преимущества</a>
+                <a href="#specs">Характеристики</a>
+                <a href="#usage">Применение</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+
+        <div b-9csx9a6czi class="container footer__bottom">
+            <span b-9csx9a6czi class="footer__copy">
+                © 2026 BioFab. Все права защищены. ·
+                <a class="footer__legal-link" href="licenses/">Лицензии</a>
+            </span>
+
+            <div b-9csx9a6czi class="support">
+                <img src="image/fsi_logo.png" alt="Фонд содействия инновациям" class="support__logo" />
+                <div b-9csx9a6czi class="support__text">
+                    <span b-9csx9a6czi class="support__label">Создано при поддержке</span>
+                    <span b-9csx9a6czi class="support__name">Фонда содействия инновациям</span>
+                </div>
+            </div>
+
+            <span b-9csx9a6czi class="footer__dots">
+                <span b-9csx9a6czi class="dot dot--red"></span>
+                <span b-9csx9a6czi class="dot dot--green"></span>
+                <span b-9csx9a6czi class="dot dot--teal"></span>
+            </span>
+        </div>
+    </footer>
+
+    <script src="js/site.js"></script>
+</body>
+</html>
+
+
